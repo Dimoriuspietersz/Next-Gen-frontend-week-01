@@ -1,29 +1,36 @@
 # Personal Profile Website
 
-## Internship Week 1
+## Description
 
-This project is part of my Frontend Development Internship.
+A personal profile website developed as part of Week 1 of my Frontend Development Internship.
 
-### Project
+## Technologies Used
 
-Personal Profile Website
+- HTML5
 
-### Technologies
+## Features
 
-* HTML5
+- About Me section
+- Education section
+- Skills section
+- Projects section
+- Contact form
+- Profile image
+- Navigation menu
 
-### Current Progress
+## Project Structure
 
-* Project structure created
-* Basic HTML5 document created
-* Initial webpage tested successfully
+week-01-personal-profile/
+│
+├── index.html
+├── README.md
+└── assets/
+    ├── profile.jpg
 
-### Planned Sections
+## How to Run
 
-* Header
-* About Me
-* Education
-* Skills
-* Projects
-* Contact Form
-* Footer
+Open `index.html` in a web browser.
+
+## Author
+
+Dimorius Pietersz
