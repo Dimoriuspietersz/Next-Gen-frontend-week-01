@@ -107,6 +107,54 @@
 
         </section>
 
+        <section id="contact">
+
+    <h2>Contact Me</h2>
+
+    <p>
+        If you would like to get in touch with me, please use the form below.
+    </p>
+    <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="subject">Subject:</label>
+        <input type="text" id="subject" name="subject" required>
+
+        <label for="reason">Reason for Contact:</label>
+
+<select id="reason" name="reason" required>
+
+    <option value="">Select an option</option>
+    <option value="job">Job Opportunity</option>
+    <option value="project">Project Discussion</option>
+    <option value="general">General Inquiry</option>
+
+</select>
+
+        <label for="message">Message:</label>
+
+        <textarea
+            id="message"
+            name="message"
+            rows="5"
+            required
+        ></textarea>
+
+        <label>
+    <input type="checkbox" name="consent" required>
+    I agree to be contacted regarding my message.
+        </label>
+
+        <button type="submit">Send Message</button>
+
+    </form>
+
+        </section>
+
     </main>
 
     <footer>
